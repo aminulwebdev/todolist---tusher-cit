@@ -41,7 +41,7 @@ function todo(){
           edititem.addEventListener("click",function(){
                addbtn.innerHTML = "update"
           inputbox.value = storetodo[editindex]
-          todoindex = todoindex
+          todoindex = editindex
 
                // console.log(edititem,editindex);
           })
