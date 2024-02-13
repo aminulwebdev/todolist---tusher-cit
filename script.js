@@ -46,7 +46,7 @@ function todo(){
                // console.log(edititem,editindex);
           })
      })
-     let deletebtn = querySelectorAll(".deletebtn")
+     let deletebtn = document.querySelectorAll(".deletebtn")
      let deletebtnArr = Array.from(deletebtn)
      deletebtnArr.map((deleteitem,deleteindex)=>{
           deleteitem.addEventListener("click",function(){
