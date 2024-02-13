@@ -18,7 +18,7 @@ addbtn.addEventListener("click",function(){
      else if(inputbox.value !== "" && addbtn.innerHTML == "update"){
           storetodo[todoindex] = inputbox.value
           inputbox.value = ""
-          addbtn.innerHTML = "Add"
+          addbtn.innerHTML = "add"
           todo() 
 
      }
