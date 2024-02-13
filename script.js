@@ -47,7 +47,7 @@ function todo(){
           })
      })
      let deletebtn = querySelectorAll(".deletebtn")
-     let deletebtnArr = Arry.from("deletebtn")
+     let deletebtnArr = Array.from("deletebtn")
      deletebtnArr.map((deleteitem,deleteindex)=>{
           deleteitem.addEventListener("click",function(){
                storetodo.splice(deleteindex,1)
