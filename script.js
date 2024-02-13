@@ -8,7 +8,7 @@ let todoindex
 
 
 addbtn.addEventListener("click",function(){
-     if(inputbox.value !== "" && addbtn.innerHTML == "Add"){
+     if(inputbox.value !== "" && addbtn.innerHTML == "add"){
           error.innerHTML = ""
           storetodo.push(inputbox.value)
           inputbox.value = ""
